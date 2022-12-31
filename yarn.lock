@@ -178,6 +178,11 @@
     "@swc/core-win32-ia32-msvc" "1.3.24"
     "@swc/core-win32-x64-msvc" "1.3.24"
 
+"@types/node@^18.11.18":
+  version "18.11.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
+  integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -257,11 +262,6 @@ debug@^4.1.1:
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
-
-dommatrix@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/dommatrix/-/dommatrix-1.0.3.tgz#e7c18e8d6f3abdd1fef3dd4aa74c4d2e620a0525"
-  integrity sha512-l32Xp/TLgWb8ReqbVJAFIvXmY7go4nTxxlWiAFyhoQw9RKEOHBZNnyGvJWqDVSPmq3Y9HlM4npqF/T6VMOXhww==
 
 esbuild@^0.16.3:
   version "0.16.12"
@@ -414,13 +414,6 @@ postcss@^8.4.20:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-react-curved-text@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-curved-text/-/react-curved-text-1.0.0.tgz#d7872b30d7aad6f0e3c1ab798007357b03a67071"
-  integrity sha512-aL46ccFn2K/KCno4vz5z9ygPDzpiRKqZCoAoHsEPukiicv+LXyPf0DDjYp2MyQoF/lnXB02yI5ILbHHSseq3zQ==
-  dependencies:
-    svg-path-commander "1.0.5"
-
 react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
@@ -489,13 +482,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-svg-path-commander@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/svg-path-commander/-/svg-path-commander-1.0.5.tgz#99590f05795364af201ed9e29ad1b5b748c44629"
-  integrity sha512-hhQfARVXoPrwwe4DNPWM4hjQLK7rTxwQ+TUc5mxoe5g0k5eStc4SPnKqmivlm/dzZ98bI+yDyKye92n2t+oOiQ==
-  dependencies:
-    dommatrix "^1.0.3"
 
 to-regex-range@^5.0.1:
   version "5.0.1"

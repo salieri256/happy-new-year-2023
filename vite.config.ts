@@ -8,4 +8,5 @@ export default defineConfig({
     tsconfigPaths(),
     react(),
   ],
+  base: process.env.GITHUB_PAGES ? '/happy-new-year-2023' : '/'
 })

@@ -1,32 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Footer from "components/Footer/Footer";
+import Rabbit from "components/Rabbit/Rabbit";
+import Wave from "components/Wave/Wave";
+import styles from 'App.module.scss'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+const FirstContent = () => (
+  <div className={styles.happyNewYearOuter}>
+    <div className={styles.happyNewYearInner}>
+      <h2 className={styles.happyNewYearText}>
+        <span>Happy</span>
+        <span>New</span>
+        <span>Year</span>
+        <span>2023</span>
+      </h2>
+      <p>
+        今年もよろしくお願いします🙇
       </p>
+      <div className={styles.wave}>
+        <Wave />
+      </div>
+    </div>
+  </div>
+)
+
+const SecondContent = () => (
+  <div className={styles.etoOuter}>
+    <div className={styles.etoInner}>
+      <h2 className={styles.etoText}>卯</h2>
+      <p>
+        🐇今年は卯年🐇
+      </p>
+      <div className={styles.rabbitContainer}>
+        <Rabbit />
+      </div>
+    </div>
+  </div>
+)
+
+const App = () => {
+  return (
+    <div className={styles.container}>
+      <main>
+        <FirstContent />
+        <SecondContent />
+      </main>
+      <footer className={styles.footerContainer}>
+        <Footer />
+      </footer>
     </div>
   )
 }

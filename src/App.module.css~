@@ -1,0 +1,72 @@
+.container {
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+}
+
+.happyNewYearOuter {
+  width: 100%;
+  height: 100svh;
+  padding: 2rem;
+  position: relative;
+  background: #FCD7A1;
+}
+
+.happyNewYearInner {
+
+}
+
+.happyNewYear {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #60451f;
+}
+
+.happyNewYear > * {
+  display: block;
+}
+
+.wave {
+  display: none;
+}
+
+.etoOuter {
+
+}
+
+.etoInner {
+
+}
+
+.etoContainer {
+  width: 38rem;
+  height: 100vh;
+  padding: 2rem;
+  background: #333c5e;
+  color: white;
+  text-align: center;
+}
+
+.etoText {
+  font-size: 8rem;
+  color: #fabf14;
+}
+
+.footerContainer {
+  background: #2c3557;
+  color: white;
+}
+
+@media (max-width: 38rem) {
+  .happyNewYearContainer {
+    width: 100%;
+  }
+
+  .etoContainer {
+    width: 100%;
+  }
+
+  .wave {
+    display: block;
+  }
+}

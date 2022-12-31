@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.sns {
+  display: grid;
+  gap: 1.5rem;
+  justify-content: center;
+}
